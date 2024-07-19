@@ -1,0 +1,150 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Portfolio</title>
+    <style>
+        body {
+            font-family: "Patrick Hand", cursive;
+            background-color: white;
+            color: black;
+            transition: background-color 0.3s, color 0.3s;
+            margin: 0;
+            padding: 0;
+        }
+
+        .container {
+            background-color: #8e44ad;
+            display: flex;
+            justify-content: space-between;
+            align-items: center;
+            padding: 0px;
+            margin: -10px;
+        }
+
+        .navbar ul {
+            display: flex;
+            padding: 0;
+            margin-right: 450px;
+            list-style: none;
+        }
+
+        .navbar ul li {
+            margin-left: 30px;
+        }
+
+        .navbar ul li a {
+            text-decoration: none;
+            color: white;
+            border-radius: 50px;
+            padding: 10px 10px;
+            transition: background-color 0.3s, color 0.3s, transform 0.3s;
+        }
+
+        .navbar ul li a:hover {
+            background-color: rgb(226, 237, 226);
+            color: rgb(19, 19, 19);
+            border-radius: 40px;
+            transform: scale(1.1);
+        }
+
+        h2 {
+            color: white;
+            padding-left: 100px;
+            text-align: center;
+            margin: 20px 0;
+        }
+
+        .portfolio-section {
+            padding: 50px 0;
+            background-color: #f8f8f8;
+            text-align: center;
+        }
+
+        .portfolio-section h2 {
+            color: #8e44ad;
+            font-size: 36px;
+            margin-bottom: 20px;
+            margin-right: 100px;
+            height: 50px;
+        }
+
+        .portfolio-items {
+            display: flex;
+            justify-content: center;
+            flex-wrap: wrap;
+            gap: 30px;
+        }
+
+        .portfolio-item {
+            background-color: white;
+            border-radius: 10px;
+            box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+            overflow: hidden;
+            transition: transform 0.3s, box-shadow 0.3s;
+            width: 300px;
+        }
+
+        .portfolio-item:hover {
+            transform: scale(1.05);
+            box-shadow: 0 6px 12px rgba(0, 0, 0, 0.2);
+        }
+
+        .portfolio-item img {
+            width: 100%;
+            height: auto;
+        }
+
+        .portfolio-item h3 {
+            padding: 20px;
+            margin: 0;
+            font-size: 24px;
+            color: #333;
+        }
+
+        .portfolio-item p {
+            padding: 0 20px 20px;
+            margin: 0;
+            font-size: 16px;
+            color: #777;
+        }
+
+    </style>
+</head>
+<body>
+    <div class="container">
+        <h2>VP</h2>
+        <nav class="navbar">
+            <ul>
+                <li><a href="aboutme.html">About Me</a></li>
+                <li><a href="index.html">Home</a></li>
+                <li><a href="contact.html">Contact</a></li>
+                <!-- <li><a href="#Portfolio">Portfolio</a></li> -->
+                <li><a href="skills.html">Skills</a></li>
+            </ul>
+        </nav>
+    </div>
+
+    <div class="portfolio-section" id="Portfolio">
+        <h2>Portfolio</h2>
+        <div class="portfolio-items">
+            <div class="portfolio-item">
+                <img src="Untitled design (1).png" alt="Project 1">
+                <h3>Project 1</h3>
+                <p>Description of Project 1. Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nullam non urna vitae odio suscipit faucibus.</p>
+            </div>
+            <div class="portfolio-item">
+                <img src="Untitled design (2).png" alt="Project 2">
+                <h3>Project 2</h3>
+                <p>Description of Project 2. Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nullam non urna vitae odio suscipit faucibus.</p>
+            </div>
+            <div class="portfolio-item">
+                <img src="Untitled design (3).png" alt="Project 3">
+                <h3>Project 3</h3>
+                <p>Description of Project 3. Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nullam non urna vitae odio suscipit faucibus.</p>
+            </div>
+        </div>
+    </div>
+</body>
+</html>

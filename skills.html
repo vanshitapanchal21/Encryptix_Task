@@ -1,0 +1,142 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Skills</title>
+    <style>
+        body {
+            font-family: "Patrick Hand", cursive;
+            background-color: white;
+            color: black;
+            transition: background-color 0.3s, color 0.3s;
+            margin: 0;
+            padding: 0;
+        }
+
+        .container {
+            background-color: #8e44ad;
+            display: flex;
+            justify-content: space-between;
+            align-items: center;
+            padding: 0px;
+            margin: -10px;
+        }
+
+        .navbar ul {
+            display: flex;
+            padding: 0;
+            margin-right: 450px;
+            list-style: none;
+        }
+
+        .navbar ul li {
+            margin-left: 30px;
+        }
+
+        .navbar ul li a {
+            text-decoration: none;
+            color: white;
+            border-radius: 50px;
+            padding: 10px 10px;
+            transition: background-color 0.3s, color 0.3s, transform 0.3s;
+        }
+
+        .navbar ul li a:hover {
+            background-color: rgb(226, 237, 226);
+            color: rgb(19, 19, 19);
+            border-radius: 40px;
+            transform: scale(1.1);
+        }
+
+        h2 {
+            color: white;
+            padding-left: 100px;
+            text-align: center;
+            margin: 20px 0;
+        }
+
+        .skills-section {
+            padding: 50px 0;
+            background-color: #f8f8f8;
+            text-align: center;
+        }
+
+        .skills-section h2 {
+            color: #8e44ad;
+            font-size: 36px;
+            margin-bottom: 20px;
+        }
+
+        .skills-container {
+            display: flex;
+            justify-content: center;
+            flex-wrap: wrap;
+            gap: 30px;
+        }
+
+        .skill {
+            background-color: white;
+            border-radius: 10px;
+            box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+            overflow: hidden;
+            padding: 20px;
+            width: 300px;
+            text-align: left;
+        }
+
+        .skill h3 {
+            font-size: 24px;
+            color: #333;
+            margin-bottom: 10px;
+        }
+
+        .skill p {
+            font-size: 16px;
+            color: #777;
+            margin: 0;
+        }
+
+    </style>
+</head>
+<body>
+    <div class="container">
+        <h2>VP</h2>
+        <nav class="navbar">
+            <ul>
+                <li><a href="aboutme.html">About Me</a></li>
+                <li><a href="index.html">Home</a></li>
+                <li><a href="contact.html">Contact</a></li>
+                <li><a href="portfolio.html">Portfolio</a></li>
+                <!-- <li><a href="#Skills">Skills</a></li> -->
+            </ul>
+        </nav>
+    </div>
+
+    <div class="skills-section" id="Skills">
+        <h2>Skills</h2>
+        <div class="skills-container">
+            <div class="skill">
+                <h3>HTML & CSS</h3>
+                <p>Proficient in creating responsive and accessible web pages using HTML and CSS.</p>
+            </div>
+            <div class="skill">
+                <h3>JavaScript</h3>
+                <p>Experienced in building dynamic web applications and interactive features using JavaScript.</p>
+            </div>
+            <div class="skill">
+                <h3>React</h3>
+                <p>Skilled in developing single-page applications using React and related libraries.</p>
+            </div>
+            <div class="skill">
+                <h3>Node.js</h3>
+                <p>Knowledgeable in server-side programming with Node.js and Express.</p>
+            </div>
+            <div class="skill">
+                <h3>Python</h3>
+                <p>Familiar with Python for scripting, data analysis, and web development using frameworks like Django and Flask.</p>
+            </div>
+        </div>
+    </div>
+</body>
+</html>
